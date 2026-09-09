@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+
+
+    public class Sword : Weapon // Concrete class for swords
+    {
+        public Sword(string name , int damage) : base(name , damage) // Constructor for Sword class
+        {
+        }
+
+        public override void Attack()  // Override the abstract Attack method
+        { 
+            Console.WriteLine(WeaponName + " attacked for " + Weapondamage + " damage!");
+        }
+    }
+
