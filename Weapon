@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+
+    public abstract class Weapon  // Abstract Parent class for weapons
+    {
+      public Weapon(string name, int damage) // Constructor for Weapon class
+      {
+          WeaponName = name;
+          Weapondamage = damage;
+      }
+
+      public string WeaponName;
+      public int Weapondamage;
+
+
+      public abstract void Attack(); // Abstract method for attacking
+
+    }
+
