@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+
+        Weapon Katana = new Sword("Katana", 10);               // Create a new Katana object and assign it to the Katana variable
+        Weapon ThrowingKnife = new RangedWeapon("Throwing Knife", 5); // Create a new RangedWeapon object and assign it to the ThrowingKnife variable
+
+        Katana.Attack();
+        ThrowingKnife.Attack();
+                    
+
+
+    }
+}
