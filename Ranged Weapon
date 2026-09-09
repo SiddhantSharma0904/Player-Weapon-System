@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+
+
+  public class RangedWeapon: Weapon
+  {
+        public RangedWeapon(string name, int damage) : base(name, damage) // Constructor for RangedWeapon class
+        {
+        }
+
+        public override void Attack() // Override the abstract Attack method
+        {
+            Console.WriteLine(WeaponName + " attacked for " + Weapondamage + " damage!");
+        }
+
+}
+
